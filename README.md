@@ -7,7 +7,7 @@
 参考：
 
 - 下载FPKM数据。[下载地址](https://xenabrowser.net/datapages/?dataset=TCGA-LUAD/Xena_Matrices/TCGA-LUAD.htseq_fpkm.tsv&host=https://gdc.xenahubs.net)
-- 转换为TPM格式。参考工具https://github.com/timoast/FPKM-TPM，可以自己写，最好全部使用R代码。
+- 转换为TPM格式。参考工具<https://github.com/timoast/FPKM-TPM>，可以自己写，最好全部使用R代码。
 
 
 
