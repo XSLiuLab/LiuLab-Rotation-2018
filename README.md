@@ -21,13 +21,13 @@
 
 ## Task3
 
-根据基因表达文件创建ExpressionSet对象，同时包含表型数据，表型数据[下载地址](https://xenabrowser.net/datapages/?dataset=TCGA.LUAD.sampleMap/LUAD_clinicalMatrix&host=https://tcga.xenahubs.net)
+根据基因表达文件创建ExpressionSet对象（样例对象已添加，使用Rstudio打开之前安装好Biobase包），同时包含表型数据，表型数据[下载地址](https://xenabrowser.net/datapages/?dataset=TCGA.LUAD.sampleMap/LUAD_clinicalMatrix&host=https://tcga.xenahubs.net)
 
 构建方法参考<http://bioconductor.org/packages/release/bioc/vignettes/Biobase/inst/doc/ExpressionSetIntroduction.pdf>
 
-需要构建的一些变量：
+表型数据需要构建的一些变量：
 
-```
+```R
 #       1. Study_ID, like GSEXXXXX     如果分析TCGA LUAD， 写为TCGA-LUAD
 #       2. Sample_ID, like GSMXXXXX    TCGA可以写15位还是12位的Tumor_Sample_Barcode
 #       3. Platform, like GPL96 or GPL570   找一些TCGA是什么平台测序的
@@ -42,7 +42,7 @@
 #       12. Survival_status    # 生存状态
 #       13. Survival_time      # 生存时间
 #       14. Preprocessed_method # 预处理方法，这里可以写为log(TPM+1)
-#       15. Matched_CNV_ID     # 匹配的CNV数据ID
+#       15. Matched_CNV_ID     # 匹配的CNV数据ID，TCGA数据可直接可以写为Sample_ID
 #       16. Tumor_Normal_Matched_ID # 如果是某病人癌症组织和癌旁组织，设定ID，TCGA少有，直接留空
 ```
 
@@ -65,4 +65,12 @@ construct_PhenoData <- function(Study_ID=NULL, Sample_ID=NULL, Platform=NULL, Ty
 }
 ```
 
-**要求**：流程都尽量函数化，参考函数标准<https://github.com/yihui/rmini/blob/master/R/roxygen.R>
+
+
+不像仓库里的样例数据的特征数据行名（以及第一列）是特征ID，这里你全设置为基因名（gene symbol)。同时需要注意，ExpressionSet对象assayData槽中表达矩阵的行名跟它必须是一致的，不然构建对象应该会出错。
+
+这里统一设置为[HUGO gene symbol官网](https://www.genenames.org/cgi-bin/statistics)提供的数据，也就是先构建一个空矩阵，行名为Complete HGNC dataset里Hugo gene symbol的名称，文件我直接传到仓库，你克隆或者git pull下载即可。
+
+
+
+**要求**：流程都尽量函数化，主要是FPKM到TPM转换，以及TPM表达值加临床数据构建ExpressionSet对象。参考函数标准<https://github.com/yihui/rmini/blob/master/R/roxygen.R>
