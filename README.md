@@ -55,3 +55,8 @@ by Shixiang
 #### 参考文献
 
 <https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002309>
+
+概读结果，精读方法部分。
+
+通过搜索学习理解相关概念，或提问结果
+通过搜索学习理解相关概念，或提问
