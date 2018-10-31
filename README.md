@@ -27,13 +27,17 @@ by Shixiang
 
 ## 关于Neoantigen质量研究
 
-2个方面：
+2个方面
 
-* 已发表免疫治疗文献的Neoantigen的详细分析
+### 已发表免疫治疗文献的Neoantigen的详细分析
   * 数据的搜索与下载
   * 预处理与规整
   * 分析特定突变与基因表达（以及它们的抽象，例如模块、网络等）与病人生存关系 - 参考文献：[Signatures of T cell dysfunction and exclusion predict cancer immunotherapy response](https://www.nature.com/articles/s41591-018-0136-1)
-* Neoantigen Quality Pipeline
+
+
+### Neoantigen Quality Pipeline
+
+这方面感觉做的人不少了，有些Pipeline已经出来了，技术跟不上，观望观望差不多了。
 
 文献
 
