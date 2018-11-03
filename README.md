@@ -52,7 +52,7 @@ Study by Song Minfang
 * 研究步骤
   * 软件包文档阅读及相关文献阅读理解
   * 实现bam文件的自动定位（包括GDC下载文件manifest的解析）
-  * WES数据的预处理，一个关注点是必须进行GC校正，参考基因组使用GDC官方
+  * WES数据的预处理，一个关注点是必须进行GC校正，参考基因组使用GDC官方；另一个关注点是同一个病人可能有不同的样本号，我们只挑选最优的，参阅我之前的笔记[TCGA barcode以及重名过滤](https://www.jianshu.com/p/74c36463a97e)
   * allelic copy number calling的探索与自动化
   * 上一步的结果整理，主要结果数据包括但不仅限于allelic copy number信息，purity，ploidy
   * 肿瘤克隆演化与异质性研究
