@@ -67,6 +67,9 @@ Study by Zhang jing etc., validate by Sun Gangyu
   * 机器学习相关背景学习与逻辑回归的理解与探究
   * 聚焦问题：使用逻辑回归基于特征进行突变概率计算。目前个人认为问题在于特征的选择、优化与解释上。
   * 探讨与研究问题，并提出解决方案
+* 注释项目
+  * [ENCODE](https://www.encodeproject.org/)
+  * [RoadMap](http://www.roadmapepigenomics.org/)
 * 参考资料
   * [三大特征选择策略，有效提升你的机器学习水准](https://www.jiqizhixin.com/articles/2017-10-23-2)
   * [机器学习之（四）特征工程以及特征选择的工程方法](https://blog.csdn.net/boon_228/article/details/51749646)
