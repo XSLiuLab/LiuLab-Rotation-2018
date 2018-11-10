@@ -49,6 +49,7 @@ by Shixiang
 * SciHub - http://www.sci-hub.tw/
 * 如果上面的失效，使用SCI-Hub科研论文全文下载可用网址（自动更新） - http://tool.yovisun.com/scihub/
 * 百度文库下载 - http://wenku.bemfa.com/
+* 爱学术 - https://www.ixueshu.com/
 
 
 ## 关于CNV的研究
