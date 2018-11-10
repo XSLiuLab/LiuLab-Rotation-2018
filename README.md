@@ -26,6 +26,31 @@ by Shixiang
 * 如果存在图片，需要规范出图的数据与代码，尽量保证图片修改比较简单与可自动化
 * 第一个月底文献汇报，第二个月月底工作汇报。文献可自己选择，或者进行询问
 
+## 一些重要文献
+
+* Signatures of mutational processes in human cancer - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3776390/
+* Mutation Signature (Nat.Rev) - https://www.nature.com/articles/nrg3729
+* Copy-number signatures and mutational processes in ovarian carcinoma - https://www.nature.com/articles/s41588-018-0179-8
+
+## 科学上网
+
+如果无法访问谷歌，请使用XX-net进行上网设置，该软件全平台支持（Mac, Linux and Windows etc.）
+
+* 中文文档：<https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3>
+* 建议使用谷歌浏览器配置，配置文档为：<https://github.com/XX-net/XX-Net/wiki/%E4%BD%BF%E7%94%A8Chrome%E6%B5%8F%E8%A7%88%E5%99%A8>
+* 上述配置成功后，为了保证上网的有效性，需要配置谷歌AppID，即在下方部署服务器部分填入AppID。弄这个很麻烦，可以使用我之前的配置，`adept-box-184316|secret-walker-184316|axial-sight-184316|verdant-art-184316|phonic-jetty-184316|capable-argon-184316|potent-symbol-184316|tribal-primacy-184316|semiotic-cove-184316|plucky-haven-184315`，共10个AppID，每天可以获取10G左右的外网流量。
+ ![](https://cloud.githubusercontent.com/assets/5118705/19356731/61e3b1ca-91a1-11e6-85b3-c4e034d99d65.png)
+  * 如果想要自己配置，请参考文档<https://github.com/XX-net/XX-Net/wiki/how-to-create-my-appids>
+
+
+**科学搜索与下载**
+
+* 谷歌学术搜索 - https://scholar.google.com/
+* SciHub - http://www.sci-hub.tw/
+* 如果上面的失效，使用SCI-Hub科研论文全文下载可用网址（自动更新） - http://tool.yovisun.com/scihub/
+* 百度文库下载 - http://wenku.bemfa.com/
+
+
 ## 关于CNV的研究
 
 ### CNV断点（breakpoint）精确识别
