@@ -66,6 +66,15 @@ Study by Sun Gangyu
   * 已有断点识别软件的理解与测试
   * 整合or创新方法
   * 测试数据，评估结果
+  
+重要概念：
+
+CIGAR
+
+* [What is a CIGAR? ](https://sites.google.com/site/bioinformaticsremarks/bioinfo/sam-bam-format/what-is-a-cigar)
+* [Cigar Strings For Dummies](https://jef.works/blog/2017/03/28/CIGAR-strings-for-dummies/)
+* [SAM DOC](https://genome.sph.umich.edu/wiki/SAM)
+* [SAM doc.pdf](https://samtools.github.io/hts-specs/SAMv1.pdf)
 
 ### NGS的CNV calling与肿瘤演化/异质性研究
 
