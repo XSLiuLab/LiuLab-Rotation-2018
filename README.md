@@ -71,10 +71,13 @@ Study by Sun Gangyu
 
 CIGAR
 
+* https://www.drive5.com/usearch/manual/cigar.html
 * [What is a CIGAR? ](https://sites.google.com/site/bioinformaticsremarks/bioinfo/sam-bam-format/what-is-a-cigar)
 * [Cigar Strings For Dummies](https://jef.works/blog/2017/03/28/CIGAR-strings-for-dummies/)
 * [SAM DOC](https://genome.sph.umich.edu/wiki/SAM)
 * [SAM doc.pdf](https://samtools.github.io/hts-specs/SAMv1.pdf)
+* [生物信息学100个基础问题 —— 第19题 SAM/BAM中的CIGAR值](https://zhuanlan.zhihu.com/p/35574870)
+
 
 ### NGS的CNV calling与肿瘤演化/异质性研究
 
