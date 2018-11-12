@@ -79,6 +79,9 @@ CIGAR
 * [生物信息学100个基础问题 —— 第19题 SAM/BAM中的CIGAR值](https://zhuanlan.zhihu.com/p/35574870)
 
 
+[Sam格式和samtools](http://blog.leanote.com/post/songtaogui/Sam%E6%A0%BC%E5%BC%8F%E5%92%8Csamtools)
+
+
 ### NGS的CNV calling与肿瘤演化/异质性研究
 
 Study by Song Minfang
