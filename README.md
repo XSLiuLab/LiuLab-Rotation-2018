@@ -90,6 +90,10 @@ Study by Song Minfang
   * Favero, Francesco, et al. "Sequenza: allele-specific copy number and mutation profiles from tumor sequencing data." Annals of Oncology 26.1 (2014): 64-70.及包文档
   * Jiang, Yuchao, et al. "Assessing intratumor heterogeneity and tracking longitudinal and spatial clonal evolutionary history by next-generation sequencing." Proceedings of the National Academy of Sciences 113.37 (2016): E5528-E5537. 及包文档
   * Burrell, Rebecca A., et al. "The causes and consequences of genetic heterogeneity in cancer evolution." Nature 501.7467 (2013): 338.（相关背景Reivew）
+  * Visualizing Clonal Evolution in Cancer https://www.sciencedirect.com/science/article/pii/S1097276516301885
+  * Clonal Heterogeneity and Tumor Evolution: Past, Present, and the Future https://www.cell.com/cell/pdf/S0092-8674(17)30066-1.pdf
+  * Clonal evolution in cancer https://www.nature.com/articles/nature10762
+  * Computational enhancement of single-cell sequences for inferring tumor evolution https://academic.oup.com/bioinformatics/article/34/17/i917/5093219
 * 研究步骤
   * 软件包文档阅读及相关文献阅读理解
   * 实现bam文件的自动定位（包括GDC下载文件manifest的解析）
