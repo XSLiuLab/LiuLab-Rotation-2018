@@ -85,7 +85,7 @@ CIGAR
 
 Study by Zhu Xufeng
 
-* novoBreak（https://github.com/czc/nb_distribution）的使用，该软件Sun Gangyu已经安装好，目前一个问题是还没有让它work，所以第一步是用几个样本运行出结果，解决不能运行的原因。这个事情可以多余Sun Gangyu交流。
+* novoBreak（<https://github.com/czc/nb_distribution>）的使用，该软件Sun Gangyu已经安装好，目前一个问题是还没有让它work，所以第一步是用几个样本运行出结果，解决不能运行的原因。这个事情可以多余Sun Gangyu交流。
 
 
 
