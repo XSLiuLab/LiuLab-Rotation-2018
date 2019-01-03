@@ -81,6 +81,13 @@ CIGAR
 
 [Sam格式和samtools](http://blog.leanote.com/post/songtaogui/Sam%E6%A0%BC%E5%BC%8F%E5%92%8Csamtools)
 
+### CNV断点（breakpoint）精确识别2
+
+Study by Zhu Xufeng
+
+* novoBreak（https://github.com/czc/nb_distribution）的使用，该软件Sun Gangyu已经安装好，目前一个问题是还没有让它work，所以第一步是用几个样本运行出结果，解决不能运行的原因。这个事情可以多余Sun Gangyu交流。
+
+
 
 ### NGS的CNV calling与肿瘤演化/异质性研究
 
@@ -103,25 +110,12 @@ Study by Song Minfang
   * 肿瘤克隆演化与异质性研究
   * 相关结果的输出与整理
 
-## Noncoding driver mutaiton discovery validation
+### NGS的CNV calling流程构建
 
-Study by Zhang jing etc., validate by Sun Gangyu
+Study by Wang Xuan
 
-* 研究步骤
-  * 论文背景及一些方法阅读
-  * 机器学习相关背景学习与逻辑回归的理解与探究
-  * 聚焦问题：使用逻辑回归基于特征进行突变概率计算。目前个人认为问题在于特征的选择、优化与解释上。
-  * 探讨与研究问题，并提出解决方案
-* 注释项目
-  * [ENCODE](https://www.encodeproject.org/)
-  * [RoadMap](http://www.roadmapepigenomics.org/)
-* 参考资料
-  * [三大特征选择策略，有效提升你的机器学习水准](https://www.jiqizhixin.com/articles/2017-10-23-2)
-  * [机器学习之（四）特征工程以及特征选择的工程方法](https://blog.csdn.net/boon_228/article/details/51749646)
-  * [数据一样，y却不一样的样本该怎么处理？](http://sofasofa.io/forum_main_post.php?postid=1002044)
-  * [数据特征 标准化和归一化你了解多少？](https://www.tinymind.cn/articles/1217)
-  * [Machine Learning Algorithms: Which One to Choose for Your Problem](https://blog.statsbot.co/machine-learning-algorithms-183cc73197c)
-  * [An Introduction to Feature Selection](https://machinelearningmastery.com/an-introduction-to-feature-selection/)
-  * [Preparing data for a machine learning model.](https://www.jeremyjordan.me/preparing-data-for-a-machine-learning-model/)
+* 在Song Minfang研究的基础上构建CNV calling的代码流程，参考FACETS文献和软件说明
+* 分析TCGA NSCLC WES数据
+
 
 
